@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VEER — Luxury Men's Fragrance</title>
+  <meta name="description" content="VEER Perfumes. Timeless elegance. Luxury men's fragrances crafted for the discerning gentleman." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- 1. Header: hamburger | VEER | cart -->
+  <header class="header" id="header">
+    <nav class="nav">
+      <button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <a href="#" class="logo">VEER</a>
+      <div class="nav-drawer" id="nav-drawer" aria-hidden="true">
+        <a href="#collection">Collection</a>
+        <a href="#art">Our Story</a>
+        <a href="#why">Contact</a>
+        <a href="#collection">Shop</a>
+      </div>
+      <a href="#collection" class="nav-cart" aria-label="Shopping bag">
+        <svg class="cart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4H6z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 2. Hero: left text (LUXURY MEN'S FRAGRANCE, TIMELESS ELEGANCE, copy, 2 buttons) | right product image -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="hero-label">Luxury Men's Fragrance</p>
+          <h1 class="hero-title">
+            <span class="hero-title-line">Timeless</span>
+            <span class="hero-title-line hero-title-gold">Elegance</span>
+          </h1>
+          <p class="hero-desc">Experience the sophistication of VEER perfumes. Crafted for the modern gentleman who values refinement and distinction.</p>
+          <div class="hero-buttons">
+            <a href="#collection" class="btn btn-primary">Explore Collection</a>
+            <a href="#art" class="btn btn-outline">Learn More</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-glow"></div>
+          <img src="assets/veer-product.png" alt="VEER Perfumes" width="600" height="800" />
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. The Art of Masculine Fragrance + stats -->
+    <section class="art-section" id="art">
+      <div class="container">
+        <div class="art-top">
+          <div class="art-heading">
+            <span class="art-line"></span>
+            <h2 class="art-title">The Art of</h2>
+            <h2 class="art-title art-title-gold">Masculine Fragrance</h2>
+          </div>
+          <div class="art-copy">
+            <p>VEER represents the pinnacle of men's perfumery, where tradition meets innovation. Each fragrance is meticulously crafted to embody strength, sophistication, and timeless appeal.</p>
+            <p>Our master perfumers blend the finest ingredients from around the world, creating scents that are as unique and memorable as the men who wear them.</p>
+          </div>
+        </div>
+        <div class="stats">
+          <div class="stat"><span class="stat-number">100%</span><span class="stat-label">Premium Quality</span></div>
+          <div class="stat"><span class="stat-number">50K+</span><span class="stat-label">Happy Customers</span></div>
+          <div class="stat"><span class="stat-number">25+</span><span class="stat-label">Unique Scents</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Our Masterpieces - Signature Collection -->
+    <section class="collection" id="collection">
+      <div class="container">
+        <p class="collection-label">Signature Collection</p>
+        <h2 class="collection-title">Our <span class="text-gold">Masterpieces</span></h2>
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-img-wrap">
+              <img src="assets/veer-product.png" alt="VEER Noir" width="400" height="500" />
+            </div>
+            <div class="product-info">
+              <div class="product-row">
+                <h3 class="product-name">VEER Noir</h3>
+                <span class="product-price">$195</span>
+              </div>
+              <p class="product-desc">Deep, mysterious, and captivating. A bold statement for the confident man.</p>
+              <p class="product-notes"><span class="notes-label">Notes</span> Oud Wood, Amber, Black Pepper</p>
+              <button type="button" class="btn btn-add">Add to Cart</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-img-wrap">
+              <img src="https://images.unsplash.com/photo-1595425970377-c8fbcd9a1ee6?w=400&q=85" alt="VEER Imperial" width="400" height="500" />
+            </div>
+            <div class="product-info">
+              <div class="product-row">
+                <h3 class="product-name">VEER Imperial</h3>
+                <span class="product-price">$225</span>
+              </div>
+              <p class="product-desc">Regal and commanding. Crafted for those who lead with grace.</p>
+              <p class="product-notes"><span class="notes-label">Notes</span> Leather, Tobacco, Cedarwood</p>
+              <button type="button" class="btn btn-add">Add to Cart</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-img-wrap">
+              <img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=400&q=85" alt="VEER Gold" width="400" height="500" />
+            </div>
+            <div class="product-info">
+              <div class="product-row">
+                <h3 class="product-name">VEER Gold</h3>
+                <span class="product-price">$215</span>
+              </div>
+              <p class="product-desc">Warm, luxurious, and unforgettable. The essence of sophistication.</p>
+              <p class="product-notes"><span class="notes-label">Notes</span> Bergamot, Vanilla, Sandalwood</p>
+              <button type="button" class="btn btn-add">Add to Cart</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Why Choose VEER + Discover Your Signature Scent -->
+    <section class="why-section" id="why">
+      <div class="container">
+        <p class="why-label">Why Choose VEER</p>
+        <h2 class="why-title">Excellence in Every <span class="text-gold">Detail</span></h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <span class="feature-icon" aria-hidden="true">◆</span>
+            <h3 class="feature-title">Master Craftsmanship</h3>
+            <p class="feature-desc">Each fragrance is crafted by world-renowned perfumers with decades of experience.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon" aria-hidden="true">✦</span>
+            <h3 class="feature-title">Premium Ingredients</h3>
+            <p class="feature-desc">Only the finest, ethically-sourced ingredients from around the globe.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon" aria-hidden="true">◇</span>
+            <h3 class="feature-title">Long-Lasting</h3>
+            <p class="feature-desc">High concentration formulas ensure your scent lasts from morning to night.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon" aria-hidden="true">▭</span>
+            <h3 class="feature-title">Free Shipping</h3>
+            <p class="feature-desc">Complimentary express delivery on all orders worldwide.</p>
+          </div>
+        </div>
+        <div class="quiz-cta">
+          <h2 class="quiz-title">Discover Your <span class="text-gold">Signature Scent</span></h2>
+          <p class="quiz-desc">Not sure which fragrance is right for you? Take our scent profile quiz and get personalized recommendations.</p>
+          <a href="#" class="btn btn-primary btn-quiz">Take the Quiz</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Footer: 4 columns -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <span class="footer-logo">VEER</span>
+            <p class="footer-tagline">Luxury men's fragrances crafted for the discerning gentleman.</p>
+            <div class="footer-social">
+              <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+              <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+              <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg></a>
+              <a href="#" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4 class="footer-heading">Shop</h4>
+            <ul>
+              <li><a href="#">New Arrivals</a></li>
+              <li><a href="#">Best Sellers</a></li>
+              <li><a href="#">Gift Sets</a></li>
+              <li><a href="#">Sample Kits</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 class="footer-heading">Support</h4>
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Shipping Info</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-col footer-newsletter">
+            <h4 class="footer-heading">Newsletter</h4>
+            <p class="newsletter-desc">Subscribe for exclusive offers and updates.</p>
+            <form class="newsletter-form" action="#" method="post" aria-label="Newsletter">
+              <input type="email" name="email" placeholder="Your email" required aria-label="Email" />
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-copy">© 2026 VEER Perfumes. All rights reserved.</p>
+          <div class="footer-legal">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
