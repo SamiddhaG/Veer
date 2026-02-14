@@ -565,6 +565,14 @@ ul {
   line-height: 1;
 }
 
+.feature-icon-img {
+  display: block;
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  margin: 0 auto var(--space-md);
+}
+
 .feature-title {
   font-family: var(--font-sans);
   font-size: 1rem;
