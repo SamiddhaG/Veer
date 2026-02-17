@@ -518,6 +518,54 @@ ul {
   background: var(--color-accent-hover);
 }
 
+.view-more-box {
+  display: block;
+  width: fit-content;
+  margin: var(--space-2xl) auto 0;
+  padding: 0.875rem 2rem;
+  background: #fcba03;
+  color: #000000;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.view-more-box:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+/* ========== Collection page (more products) ========== */
+.collection-page {
+  padding-top: var(--header-height);
+  min-height: 100vh;
+}
+
+.collection-page-section {
+  padding-top: var(--space-2xl);
+}
+
+.product-grid--large {
+  margin-bottom: 0;
+}
+
+.view-more-box--back {
+  background: transparent;
+  color: var(--color-gold);
+  border: 1px solid var(--color-gold);
+}
+
+.view-more-box--back:hover {
+  background: rgba(255, 209, 5, 0.1);
+}
+
 /* ========== Why Choose VEER + Quiz CTA ========== */
 .why-section {
   padding: var(--space-3xl) 0;
